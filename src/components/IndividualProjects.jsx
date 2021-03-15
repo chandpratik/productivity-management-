@@ -38,8 +38,8 @@ const individualProjects = ({ project }) => {
                 onClick={() => deleteProject(project.docId)}
               >
                 Delete
-                <span onClick={() => setShowConfirm(!showConfirm)}>Cancel</span>
               </button>
+              <span onClick={() => setShowConfirm(!showConfirm)}>Cancel</span>
             </div>
           </div>
         )}
