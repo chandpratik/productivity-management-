@@ -3,7 +3,7 @@ import { FaTrashAlt } from 'react-icons/fa';
 import { useProjectsValue, useSelectedProjectValue } from '../context/index';
 import { firebase } from '../firebase';
 
-const individualProjects = ({ project }) => {
+const IndividualProjects = ({ project }) => {
   const [showConfirm, setShowConfirm] = useState(false);
   const { projects, setProjects } = useProjectsValue();
   const { setSelectedProject } = useSelectedProjectValue();
@@ -48,4 +48,4 @@ const individualProjects = ({ project }) => {
   );
 };
 
-export default individualProjects;
+export default IndividualProjects;
