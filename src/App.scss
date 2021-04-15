@@ -138,31 +138,11 @@ $generic-bg: #db4c3f;
 /* Darkmode
      ============================================ */
 .darkmode {
-  body {
-    color: #282828;
-  }
-  .tasks {
-    background-color: grey;
-  }
-
   header {
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
     background-color: #282828;
     border-color: transparent;
-  }
-
-  .sidebar {
-    background-color: grey;
-    &__generic {
-      li {
-        background-color: grey;
-      }
-      &.active,
-      &:hover {
-        background-color: grey !important;
-      }
-    }
   }
 }
 
