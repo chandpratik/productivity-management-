@@ -1,7 +1,6 @@
 <h1>Todo App</h1>
-<<<<<<< HEAD
+
 ## [Check out the live version ](https://todoist-clone-webapp.netlify.app)
-=======
 
 <h2>Screenshot</h2>
 
